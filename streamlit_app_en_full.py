@@ -14,7 +14,7 @@ st.title("Prediction Tool for Node-Negative Breast Cancer (pN0)")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Train_data.csv")
+    df = pd.read_csv("Train_data_english.csv")
     return df
 
 df = load_data()
