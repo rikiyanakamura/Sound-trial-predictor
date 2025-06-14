@@ -23,7 +23,7 @@ df = load_data()
 features = ["Age", "Height", "Weight", "Axillary Diagnosis", "Menopause", "Clinical T stage",
             "CNB Histology", "Clinical Histologic Grade", "cER(%)", "cPgR(%)", "cHER2",
             "HER2 Protein", "Tumor size (US)"]
-target = "転移 2"
+target = ""metastasis"
 
 X = df[features]
 y = df[target]
